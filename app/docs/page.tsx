@@ -231,7 +231,7 @@ export default function DocsPage() {
             SatriaCanvas<span style={{ color: "var(--ink-muted)" }}> API</span>
           </h1>
           <p style={{ marginTop: 12, color: "var(--ink-muted)", fontSize: 14, fontWeight: 600 }}>
-            Endpoint publik untuk generate kartu lobby Free Fire & Mobile Legends
+            Endpoint publik api fake-ff && fake-ml
           </p>
           <div style={{ marginTop: 16, display: "flex", justifyContent: "center", gap: 8, flexWrap: "wrap" }}>
             <Badge color="#a8f0c9">GET only</Badge>
