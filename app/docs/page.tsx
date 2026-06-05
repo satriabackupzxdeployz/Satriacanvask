@@ -279,7 +279,7 @@ export default function DocsPage() {
             <CardHeader label="Base URL" />
             <div style={{ padding: 20 }}>
               <div style={{ fontSize: 14, fontWeight: 600, color: "var(--ink-muted)", marginBottom: 10 }}>
-                Ganti <code style={{ background: "rgba(26,26,26,0.08)", padding: "1px 6px", borderRadius: 4, fontFamily: "monospace", fontWeight: 800 }}>{DOMAIN}</code> dengan domain Vercel kamu.
+                Base Url : <code style={{ background: "rgba(26,26,26,0.08)", padding: "1px 6px", borderRadius: 4, fontFamily: "monospace", fontWeight: 800 }}>{DOMAIN}</code> 
               </div>
               <CodeBlock lang="text" code={`https://${DOMAIN}`} />
               <div style={{ marginTop: 16, display: "flex", flexDirection: "column", gap: 8 }}>
