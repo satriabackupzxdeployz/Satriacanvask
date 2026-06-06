@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-const DOMAIN = "https://satriacanvas.vercel.app";
+const DOMAIN = "satriacanvas.vercel.app";
 
 const FF_LOBBIES = Array.from({ length: 30 }, (_, i) => ({
   id: i + 1,
